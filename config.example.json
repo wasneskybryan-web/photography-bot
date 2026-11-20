@@ -1,0 +1,66 @@
+{
+  "shop_name": "Bayside Photo Collective",
+  "support_contact": "@your_support_handle",
+  "admins": [
+    111111111
+  ],
+  "house_cut_percent": 0,
+  "expiry_grace_hours": 24,
+  "terms": "Digital downloads for personal use only. No redistribution. Refunds only if a purchase can't be delivered.",
+  "photographers": {
+    "alex": {
+      "name": "Alex",
+      "telegram_id": 222222222,
+      "bio": "Coastal and sunset work."
+    },
+    "bea": {
+      "name": "Bea",
+      "telegram_id": 333333333,
+      "bio": "Street and night scenes."
+    },
+    "cam": {
+      "name": "Cam",
+      "telegram_id": 444444444,
+      "bio": "Aerial / FPV landscapes."
+    }
+  },
+  "bundles": [
+    {
+      "id": "alex-sunsets",
+      "photographer": "alex",
+      "title": "Chesapeake Sunsets",
+      "description": "25 full-res sunset shots, JPG + RAW.",
+      "price_stars": 250,
+      "url": "https://example.com/your-hosted-download-link",
+      "preview_url": "https://example.com/preview.jpg"
+    },
+    {
+      "id": "bea-night",
+      "photographer": "bea",
+      "title": "Night Streets Vol. 1",
+      "description": "30 night street scenes.",
+      "price_stars": 300,
+      "url": "https://example.com/another-link"
+    },
+    {
+      "id": "cam-aerials",
+      "photographer": "cam",
+      "title": "Bay From Above",
+      "description": "20 aerial stills.",
+      "price_stars": 200,
+      "url": "https://example.com/third-link",
+      "active": true
+    }
+  ],
+  "premium": {
+    "channel_id": -1001234567890,
+    "price_stars": 500,
+    "mode": "monthly",
+    "description": "Full-resolution 4K downloads from all three photographers, posted weekly.",
+    "split": {
+      "alex": 1,
+      "bea": 1,
+      "cam": 1
+    }
+  }
+}

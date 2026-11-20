@@ -1,0 +1,16 @@
+[Unit]
+Description=Photo shop Telegram bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=photobot
+WorkingDirectory=/opt/photo-shop-bot
+EnvironmentFile=/opt/photo-shop-bot/.env
+ExecStart=/opt/photo-shop-bot/venv/bin/python bot.py config.json
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
